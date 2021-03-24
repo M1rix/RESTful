@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: rgb(55,53,64);
+}
+label{
+	margin: 0px;
+	font-family: cursive;
+	color: rgb(230,230,230);
+}
+.box{
+	float: left;
+	width: 560px;
+	height: auto;
+	padding: 40px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: rgb(55,53,64);
+	text-align: center;
+}
+.box h1{
+	background: linear-gradient(90deg, rgba(0,212,255,1) 7%, rgba(114,245,82,.8) 52%, rgba(46,204,113,1) 100%);
+	border-radius: 0 80% 0 80%;
+	padding: 14px 10px;
+	color: white;
+	font-family: cursive;
+	text-transform: uppercase;
+
+
+}
+.box input[type= "text"] {
+	width: 240px;
+	border: 0;
+	background: none;
+	display: block;
+	margin: 5px auto;
+	text-align: center;
+	border-bottom:2px solid #00d4ff;
+	box-shadow: 0px 0px 5px #00d4ff; 
+	border-radius: 20px;
+	color: white;
+	padding: 14px 10px;
+	outline: none;
+	font-size: 1em;
+	font-weight: 300;
+	font-family: cursive;
+	transition: 0.35s;
+}
+.box input[type= "text"]:focus{
+	
+	width: 340px;
+	border-bottom:2px solid #72F552;
+	box-shadow: 0px 0px 5px #72F552;
+	/*box-shadow: 0px 5px 5px #2ecc71,inset 0px 5px 5px #2ecc71;*/
+
+}
+.box input[type= "text"]:active{
+	box-shadow: 8px 0px 8px #72F552,-8px 0px 8px #72F552; 
+}
+
+
+/*password */
+
+
+.box input[type= "password"] {
+	width: 240px;
+	border: 0;
+	background: none;
+	display: block;
+	margin: 5px auto;
+	text-align: center;
+	border-bottom:2px solid #00d4ff;
+	box-shadow: 0px 0px 5px #00d4ff; 
+	border-radius: 20px;
+	color: white;
+	padding: 14px 10px;
+	outline: none;
+	font-size: 1em;
+	font-weight: 300;
+	font-family: cursive;
+	transition: 0.35s;
+}
+.box input[type= "password"]:focus{
+	
+	width: 340px;
+	border-bottom:2px solid #72F552;
+	box-shadow: 0px 0px 5px #72F552;
+	/*box-shadow: 0px 5px 5px #2ecc71,inset 0px 5px 5px #2ecc71;*/
+
+}
+.box input[type= "password"]:active{
+	box-shadow: 8px 0px 8px #72F552,-8px 0px 8px #72F552; 
+}
+
+
+/*submit btn*/
+
+.box input[type= "submit"] {
+	width: 200px;
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border-bottom:2px solid #2ecc71;
+	border-radius: 20px;
+	color: white;
+	padding: 10px 6px;
+	outline: none;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: cursive;
+	transition: 0.15s;
+	cursor: pointer;
+
+}
+
+.box input[type= "submit"]:hover{
+	background-color: #2ecc71;
+	font-weight: bold;
+	box-shadow:inset 0px 2px 3px #fff;
+}
+.box input[type= "submit"]:active{
+	opacity: .8;
+	width: 185px;
+}
+
+label[name="error"]{
+	color: red;
+}
+
+
+
+/*NAVBAR*/
+
+.container{
+	width: 70%;
+	margin-left: 15%;
+	
+}
+
+.navbar{
+	margin: 0;
+	padding: 0;
+
+}
+#navlist{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+#navlist li{
+	padding: 20px;
+	display: inline-block;
+	
+}
+#navlist a li{
+	color: white;
+	text-decoration:none;
+	font-family: cursive;
+	font-size: 1.4em;
+}
+#navlist li:hover{
+	background:rgba(114, 245, 82,.8);
+}
+#logout {
+	font-size: 1em;
+	float: right;
+}
+#logout li:hover{
+	background: transparent;
+	color: red;
+}
+
+
+/*content*/
+.content{
+	color: rgb(55,53,64);;
+}
+.content table{
+	margin-left: 38%;
+	align-content: center;
+	font-size: 1.2em;
+}
+.content table tr td{
+	text-align: center;
+}
+.content table caption{
+
+	font-size: 4em;
+	font-family: cursive;
+}
+
+
+

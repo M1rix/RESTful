@@ -19,7 +19,7 @@ public class BootStrapData implements CommandLineRunner {
         c1.setFirstName("Mirshod Allaberganov");
         c1.setNickName("Mirix");
         c1.setPhone("+998973643225");
-        c1.setDebt((long)1000);
+        c1.setDebt((long) 1000);
         c1.setStatus(false);
         customerRepository.save(c1);
 
@@ -28,7 +28,7 @@ public class BootStrapData implements CommandLineRunner {
         c2.setFirstName("Ali radjabov");
         c2.setNickName("Mirix");
         c2.setPhone("+998973643225");
-        c2.setDebt((long)5300);
+        c2.setDebt((long) 5300);
 
         customerRepository.save(c2);
 
@@ -37,9 +37,9 @@ public class BootStrapData implements CommandLineRunner {
         c3.setFirstName("yuban yubanov");
         c3.setNickName("U-eban");
         c3.setPhone("+998973643225");
-        c3.setDebt((long)2500);
+        c3.setDebt((long) 2500);
         customerRepository.save(c3);
 
-        System.out.println("Customers are saved: "+customerRepository.count());
+        System.out.println("Customers are saved: " + customerRepository.count());
     }
 }

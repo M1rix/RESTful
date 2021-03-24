@@ -27,12 +27,13 @@ public class Customer {
     public Customer() {
     }
 
-    public Customer(String firstName, String nickName, String phone, Long debt,boolean status) {
+    public Customer(String firstName, String nickName, Long debt, String phone) {
         this.firstName = firstName;
         this.nickName = nickName;
-        this.phone = phone;
         this.debt = debt;
-        this.status = status;
+        this.phone = phone;
+
+
     }
 
     public boolean isStatus() {
